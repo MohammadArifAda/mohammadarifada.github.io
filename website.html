@@ -6,7 +6,7 @@
 
 </head>
 <body>
-<script src="website.js"></script>
+
 <body style="background-color:powderblue;text-align:center;">
 <h1 id="pageTitle" style="color:blue;text-align:center;">Pair of great horned owlets hanging out in popular Victoria park</h1>
 
@@ -89,48 +89,74 @@ but his eyes were <span style="color:#282222; font-weight:bold">hazel</span>
 
 <!--the lightbox start from Here-->
   <!-- Slideshow container -->
-  <div class="slideshow-container">
+  
+  <!-- Container for the image gallery -->
+<div class="container">
 
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 4</div>
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
       <img src="nature1.png" style="width:100%">
-      <div class="text">Nature Picture</div>
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 4</div>
-      <img src="nature2.png" style="width:100%">
-      <div class="text">Nature Picture</div>
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 4</div>
-      <img src="nature3.png" style="width:100%">
-      <div class="text">Nature Picture</div>
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">4 / 4</div>
-      <img src="nature4.png" style="width:100%">
-      <div class="text">Nature Picture</div>
-    </div>
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-  
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
   </div>
 
-<h4 <span style="font-style:bold;font-weight:bold;font-size:150%"> Queen Elizabath High School hiring instructor for Math, Please submit your infomation bellow</h4>
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="nature2.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="nature3.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="nature4.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="nature5.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="nature6.png" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="nature1.png" style="width:100%" onclick="currentSlide(1)" alt="Nature">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="nature2.png" style="width:100%" onclick="currentSlide(2)" alt="Nature">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="nature3.png" style="width:100%" onclick="currentSlide(3)" alt="Nature">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="nature4.png" style="width:100%" onclick="currentSlide(4)" alt="Nature">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="nature5.png" style="width:100%" onclick="currentSlide(5)" alt="Nature">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="nature6.png" style="width:100%" onclick="currentSlide(6)" alt="Nature
+  </div>
+</div>
+
+
+<h4 <br> <span style="font-style:bold;font-weight:bold;font-size:150%"> Queen Elizabath High School hiring instructor for Math, Please submit your infomation bellow</h4>
 <form action="First Name" method="post">
 First Name:  <input type"text"="" name="first_Name"><br>
  Last Name:   <input type="text" name=" Last Name"><br>
@@ -155,6 +181,6 @@ First Name:  <input type"text"="" name="first_Name"><br>
   <a href="https://www.w3schools.com/tags/tag_footer.asp">arifada815@gmail.com</a></p>
 </footer>
 
-
+<script src="website.js"></script>
 </body>
 </html>
