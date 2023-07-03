@@ -1,6 +1,16 @@
 # mohammadarifada.github.io
- Employee employee = new Employee(); //  instantiated an object of class "Employee"
-            employee.firstName = "Sample";      //  First Property of the employee object
-            employee.lastName = "Student";      //  Second property of the employee object 
-            employee.SayName();                     //  Calling the "SayName" method on object of class "Employee"
-            IQuittable quittable = new Employee();  //  Here the Employee object morphed to Iquittable interface
+ Welcome to my webiste.
+ You can see my github portifolio here.
+ You can see some example of my codes useing C# and .NEt here.
+
+ https://github.com/MohammadArifAda/Assignment2
+ Assignment2:
+ Using C#.net I have made an interface called IQuitable and had it define a void method called Quit().
+ 
+ https://github.com/MohammadArifAda/Assignment3
+ Assignment3:
+ In this I create an one class called Employee and had it define  public static bool operator.
+
+
+ 
+ 
